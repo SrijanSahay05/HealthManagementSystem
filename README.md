@@ -4,6 +4,7 @@ A comprehensive Health Management System designed to improve healthcare efficien
 <br>
 
  ## Team Members: <br>
+<li>Aditya Tiwari</li>
 <li>Kanak Sharma</li>
 <li>Kritika Kulhari</li>
 <li>Shreyas Gupta</li>
