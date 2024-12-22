@@ -5,7 +5,21 @@
     
   </head>
   <body>
-    <div class="container">
+    <div class="login-container container">
+      <div class="contact-box2">
+        <div class="right"></div>
+        <div class="center">
+          <h2>login</h2>
+          <form action="/users/login/", method="POST">
+          {% csrf_token %}
+          <input type="email" class="field" placeholder="Email ID">
+          <input type="password" class="field" placeholder="password"> 
+        </div>
+        <button ac>SUBMIT</button>
+      </form>
+      </div>
+    </div>
+    <div class="signup-container container">
       
       <div class="contact-box">
         <div class="left"></div>
@@ -18,19 +32,8 @@
 
         </div>
       </div>
+      <button>SUBMIT</button>
     </div>
-    <button>SUBMIT</button>
-    <div class="container2">
-      <div class="contact-box2">
-        <div class="right"></div>
-        <div class="center">
-          <h2>login</h2>
-          <input type="email" class="field" placeholder="Email ID">
-          <input type="password" class="field" placeholder="password"> 
-
-        </div>
-      </div>
-    </div>
-    <button>SUBMIT</button>
+    
   </body>
 </html>
