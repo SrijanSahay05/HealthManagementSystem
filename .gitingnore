@@ -1,0 +1,60 @@
+# Python-specific ignores
+*.pyc
+*.pyo
+__pycache__/
+*.swp
+
+# Virtual environments
+env/
+venv/
+.venv/
+
+# Django-specific ignores
+*.log
+db.sqlite3
+media/
+staticfiles/
+
+# If you're using environment variables or secret files
+.env
+.env.*
+
+# macOS-specific ignores
+.DS_Store
+
+# Ignore coverage reports
+.coverage
+htmlcov/
+*.cover
+*.py,cover
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore IDE/editor-specific files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Ignore compiled code and cache
+*.egg-info/
+.eggs/
+build/
+dist/
+*.egg
+*.egg-info/
+
+# Ignore migrations created by Django
+migrations/**/migrations/*.pyc
+migrations/**/migrations/*.pyo
+migrations/**/migrations/__pycache__/
+migrations/**/migrations/*.py
+!migrations/**/migrations/__init__.py
+
+# Ignore static file collections
+
+# Ignore docker-related files
+*.pid
+*.tar
+*.log
