@@ -11,6 +11,7 @@ class CustomUser(AbstractUser):
     first_name = models.CharField(max_length=30)
     last_name = models.CharField(max_length=30)
     email = models.EmailField(unique=True)
+    username =  models.CharField(max_length=30, unique=False)
     phone_number = models.CharField(max_length=12, blank=True, null=True)
     # gender = models.CharField(
     #     max_length=6, choices=GENDER_CHOICES, blank=True, null=True
@@ -24,5 +25,4 @@ class CustomUser(AbstractUser):
     REQUIRED_FIELDS = []
 
     def __str__(self):
-        return  self.username + ": " + self.first_name + " " + self.last_name
- 
+        return  self.email
