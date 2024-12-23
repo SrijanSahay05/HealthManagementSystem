@@ -1,0 +1,67 @@
+{% extends "basetemplates/loginbase.html" %}
+{% block content %}
+
+    <span class="icon-close"><a href="#" class="cross-home"><ion-icon name="close"></ion-icon></a></span>
+    <div class="form-box login">
+        <h2>Login</h2>
+        <form method="post" action="{% url 'login' %}">
+            {% csrf_token %}
+            <div class="input-box">
+                <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                <input type="email" name="login_email" required>
+                <label>Email</label>
+            </div>
+            <div class="input-box">
+                <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                <input type="password" name="login_password" required>
+                <label>Password</label>
+            </div>
+            <div class="remember-forgot">
+                <label><input type="checkbox" name="remember"> remember me</label>
+                <a href="#" class="forgot-link">Forgot Password?</a>
+            </div>
+            <button type="submit" class="btn" name="login_submit">Login</button>
+            <div class="or">
+                <p>or</p>
+            </div>
+            <div class="google"> <a href="http://localhost:8000/accounts/google/login/?process=login" class="google-link"> Continue with Google</a></div>
+            <div class="login-register">
+                <p>Don't have an account? <a href="#" class="register-link">Signup</a></p>
+            </div>
+        </form>
+    </div>
+
+    <div class="form-box register">
+      <h2>Signup</h2>
+      <form action="{% url 'login' %}" method="post">
+        {% csrf_token %}
+        <div class="input-box">
+          <span class="icon"><ion-icon name="mail"></ion-icon></span>
+          <input required type="email" name="register_email">
+          <label>Email</label>
+        </div>
+        <div class="input-box">
+          <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+          <input  type="password" name="register_password">
+          <label>Password</label>
+        </div>
+        <div class="input-box">
+            <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+            <input  type="password" name="register_confirm_password">
+            <label>Confirm Password</label>
+        </div>
+        <div class="remember-forgot">
+          <label><input type="checkbox" name="remember"> remember me</label>
+        </div>
+        <button type="submit" class="btn" name="register_submit">Signup</button>
+        <div class="or">
+          <p>or</p>
+        </div>
+        <div class="google"> <a href="http://localhost:8000/accounts/google/login/?process=login" class="google-link"> Continue with Google</a></div>
+        <div class="login-register">
+          <p>Already have an Account? <a href="#" class="login-link">Login</a></p>
+        </div>
+      </form>
+    </div>
+
+{% endblock %}

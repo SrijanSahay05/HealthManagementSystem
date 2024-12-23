@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -17,7 +17,7 @@ body {
   background-position: center;
 }
 
-header{
+header {
   position: fixed;
   top: 0;
   left: 0;
@@ -33,13 +33,12 @@ header{
   font-size: 2em;
   color: rgb(21, 158, 222);
   user-select: none;
-
 }
 
 .navigation a {
   position: relative;
   font-size: 1.1em;
-  color: rgb(21,158, 222);
+  color: rgb(21, 158, 222);
   text-decoration: none;
   font-weight: 500;
   margin-left: 40px;
@@ -52,7 +51,7 @@ header{
   bottom: -6px;
   width: 100%;
   height: 3px;
-  background: rgb(21,158, 222);
+  background: rgb(21, 158, 222);
   border-radius: 5px;
   transform: scaleX(0);
   transition: transform .5s;
@@ -62,53 +61,32 @@ header{
   transform: scaleX(1);
 }
 
-
-.navigation .btnsignup-popup {
-  width: 130px;
-  height: 50px;
-  background: transparent;
-  border: 2px solid rgb(21,158, 222);
-  outline: none;
-  border-radius: 6px;
-  cursor: pointer;
-  font-size: 1.1em;
-  color: rgb(21,158, 222);
-  font-weight: 500;
-  margin-left: 40px;
-  transition: .5s;
-}
-
+.navigation .btnsignup-popup,
 .navigation .btnlogin-popup {
   width: 130px;
   height: 50px;
   background: transparent;
-  border: 2px solid rgb(21,158, 222);
+  border: 2px solid rgb(21, 158, 222);
   outline: none;
   border-radius: 6px;
   cursor: pointer;
   font-size: 1.1em;
-  color: rgb(21,158, 222);
+  color: rgb(21, 158, 222);
   font-weight: 500;
   margin-left: 40px;
   transition: .5s;
-
 }
 
-.navigation .btnsignup-popup:hover {
-  background: rgb(21,158, 222);
-  color: white;
-}
-
+.navigation .btnsignup-popup:hover,
 .navigation .btnlogin-popup:hover {
-  background: rgb(21,158, 222);
+  background: rgb(21, 158, 222);
   color: white;
-
 }
 
 .wrapper {
   position: relative;
   width: 400px;
-  height: 440px;
+  height: 600px;
   background: transparent;
   border-radius: 20px;
   backdrop-filter: blur(20px);
@@ -120,38 +98,34 @@ header{
   transition: height .2s ease;
 }
 
-/* .wrapper.active {
-  height: 520px;
-} */
-
 .wrapper .form-box {
   width: 100%;
   padding: 40px;
 }
+
 .wrapper.form-box.login {
   transform: transform .18s ease;
   transform: translateX(0);
 }
+
 .wrapper.active .form-box.login {
   position: absolute;
-  transform: translateX(-400px);
+  transform: translateX(-800px);
 }
 
-
-.wrapper .form-box.register{
+.wrapper .form-box.register {
   position: absolute;
   transition: none;
-  transform: translateX(400px);
-
+  transform: translateX(800px);
 }
 
-.wrapper.active .form-box.register{
+.wrapper.active .form-box.register {
   transition: transform .18s ease;
   transform: translateX(0);
 }
 
 .wrapper .icon-close {
-  position:absolute;
+  position: absolute;
   top: 0;
   right: 0;
   width: 45px;
@@ -165,16 +139,12 @@ header{
   border-bottom-left-radius: 20px;
   cursor: pointer;
   z-index: 1;
-  
 }
 
-
-
-.form-box h2{
+.form-box h2 {
   font-size: 2em;
   color: #162938;
   text-align: center;
-
 }
 
 .input-box {
@@ -183,7 +153,6 @@ header{
   height: 50px;
   border-bottom: 2px solid #162938;
   margin: 30px 0;
-  
 }
 
 .input-box label {
@@ -231,12 +200,13 @@ header{
   display: flex;
   justify-content: space-between;
 }
- .remember-forgot label input {
+
+.remember-forgot label input {
   accent-color: #162938;
   margin-right: 3px;
- }
+}
 
- .btn {
+.btn {
   width: 100%;
   height: 45px;
   background: #162938;
@@ -247,8 +217,7 @@ header{
   font-size: 1em;
   color: white;
   font-weight: 500;
-
- }
+}
 
 .login-register {
   font-size: .9em;
@@ -262,7 +231,6 @@ header{
   color: #162938;
   text-decoration: none;
   font-weight: 600;
-
 }
 
 .login-register p a:hover {
@@ -281,7 +249,6 @@ header{
   color: #162938;
   text-decoration: none;
   font-weight: 600;
-
 }
 
 .google a:hover {
@@ -300,9 +267,127 @@ header{
   color: #162938;
   text-decoration: none;
   font-weight: 600;
-
 }
 
 .cross-home {
   color: white;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  header {
+    padding: 20px 50px;
+  }
+
+  .navigation a {
+    margin-left: 20px;
+    font-size: 1em;
+  }
+
+  .navigation .btnsignup-popup,
+  .navigation .btnlogin-popup {
+    width: 100px;
+    height: 40px;
+    font-size: 1em;
+    margin-left: 20px;
+  }
+
+  .wrapper {
+    width: 300px;
+    height: 500px;
+  }
+
+  .form-box h2 {
+    font-size: 1.5em;
+  }
+
+  .input-box {
+    height: 40px;
+  }
+
+  .input-box label {
+    font-size: 0.9em;
+  }
+
+  .input-box input {
+    font-size: 0.9em;
+  }
+
+  .input-box .icon {
+    font-size: 1em;
+  }
+
+  .remember-forgot {
+    font-size: 0.8em;
+  }
+
+  .btn {
+    height: 40px;
+    font-size: 0.9em;
+  }
+
+  .login-register,
+  .google,
+  .or {
+    font-size: 0.8em;
+  }
+}
+
+@media (max-width: 480px) {
+  header {
+    padding: 20px 20px;
+  }
+
+  .navigation a {
+    margin-left: 10px;
+    font-size: 0.9em;
+  }
+
+  .navigation .btnsignup-popup,
+  .navigation .btnlogin-popup {
+    width: 90px;
+    height: 35px;
+    font-size: 0.9em;
+    margin-left: 10px;
+  }
+
+  .wrapper {
+    width: 250px;
+    height: 450px;
+  }
+
+  .form-box h2 {
+    font-size: 1.2em;
+  }
+
+  .input-box {
+    height: 35px;
+  }
+
+  .input-box label {
+    font-size: 0.8em;
+  }
+
+  .input-box input {
+    font-size: 0.8em;
+  }
+
+  .input-box .icon {
+    font-size: 0.9em;
+  }
+
+  .remember-forgot {
+    font-size: 0.7em;
+  }
+
+  .btn {
+    height: 35px;
+    font-size: 0.8em;
+  }
+
+  .login-register,
+  .google,
+  .or {
+    font-size: 0.7em;
+  }
 }
