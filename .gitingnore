@@ -1,7 +1,7 @@
 # Python-specific ignores
 *.pyc
 *.pyo
-__pycache__/
+*/__pycache__/
 *.swp
 
 # Virtual environments
