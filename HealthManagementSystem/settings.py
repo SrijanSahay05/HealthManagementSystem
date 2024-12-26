@@ -12,6 +12,8 @@ https://docs.djangoproject.com/en/5.1/ref/settings/
 
 from pathlib import Path
 import os
+import ssl
+import urllib.request
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -42,6 +44,7 @@ INSTALLED_APPS = [
     # user defined APPS
     "users",
     "dashboard",
+    "patienthistory",
     #third-party APPS
     "allauth",
     "allauth.account",
@@ -165,4 +168,5 @@ ACCOUNT_SIGNUP_PASSWORD_ENTER_TWICE = True #check if we are keeping confirm pass
 ACCOUNT_SESSION_REMEMBER = True
 ACCOUNT_AUTHENTICATION_METHOD = "email"
 ACCOUNT_UNIQUE_EMAIL = True
+
 
