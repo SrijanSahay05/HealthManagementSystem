@@ -52,8 +52,6 @@ migrations/**/migrations/__pycache__/
 migrations/**/migrations/*.py
 !migrations/**/migrations/__init__.py
 
-# Ignore static file collections
-
 # Ignore docker-related files
 *.pid
 *.tar
