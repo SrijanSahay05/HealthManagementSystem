@@ -58,3 +58,4 @@ migrations/**/migrations/*.py
 *.pid
 *.tar
 *.log
+db.sqlite3
