@@ -1,61 +1,65 @@
-# Python-specific ignores
-*.pyc
-*.pyo
-*/__pycache__/
-*.swp
+# Byte-compiled files
+__pycache__/
+*.py[cod]
 
-# Virtual environments
-env/
+# Virtual environment
 venv/
-.venv/
+env/
+*.env
 
-# Django-specific ignores
-*.log
+# Django stuff:
 db.sqlite3
+*.log
 media/
 staticfiles/
 
-# If you're using environment variables or secret files
-.env
-.env.*
+# Local settings
+local_settings.py
 
-# macOS-specific ignores
-.DS_Store
+# Python packages
+*.egg-info/
+*.egg
+*.dist-info/
 
-# Ignore coverage reports
-.coverage
-htmlcov/
-*.cover
-*.py,cover
-
-# Ignore Jupyter Notebook checkpoints
-.ipynb_checkpoints/
-
-# Ignore IDE/editor-specific files
+# IDEs and editors
 .vscode/
 .idea/
-*.sublime-workspace
-*.sublime-project
+*.swp
+*.swo
+*.swn
+*~
 
-# Ignore compiled code and cache
-*.egg-info/
-.eggs/
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Migrations
+**/migrations/
+
+# Coverage reports
+htmlcov/
+.coverage
+*.cover
+.hypothesis/
+
+# Test output
+.junit.xml
+test-results/
+
+# Secrets
+.env
+*.pem
+
+# Compiled files
+*.so
+*.o
+*.pyd
+
+# Build files
 build/
 dist/
-*.egg
-*.egg-info/
+*.spec
 
-# Ignore migrations created by Django
-migrations/**/migrations/*.pyc
-migrations/**/migrations/*.pyo
-migrations/**/migrations/__pycache__/
-migrations/**/migrations/*.py
-!migrations/**/migrations/__init__.py
-
-# Ignore static file collections
-
-# Ignore docker-related files
-*.pid
-*.tar
-*.log
-db.sqlite3
+# Static and media files collected by Django
+static/
+media/
