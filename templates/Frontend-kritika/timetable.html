@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <link rel="stylesheet" href="styletimetable.css">
+  </head>
+  
+
+  <body>
+    
+    <header>
+      <a href="#" class="logo"><img src="logo.png" alt=""></a>
+      <div class="navigation">
+        <a href="#">Locate</a>
+        <a href="#">Book</a>
+        <a href="#">Timetable</a>
+        <a href="#">Medicine</a>
+        <button class="btnsignup-popup">Signup</button>
+ 
+    </header>
+
+    <div class="input-box">
+      <div class="medicine-tabs">
+        <button class="tab">med 1</button>
+        <button class="tab">med 2</button>
+        <button class="tab add-tab">+</button>
+      </div>
+      <form class="medicine-form">
+        <label for="medicine-name">Medicine Name</label>
+        <input type="text" id="medicine-name" placeholder="Enter medicine name" />
+    
+        <label for="dosage">Dosage</label>
+        <input type="text" id="dosage" placeholder="Enter dosage" />
+    
+        <label for="days">Days</label>
+        <select id="days">
+          <option>Every Day</option>
+          <option>Alternate Days</option>
+          <option>Specific Days</option>
+        </select>
+    
+        <label for="frequency">Frequency</label>
+        <select id="frequency">
+          <option>Once a Day</option>
+          <option>Twice a Day</option>
+          <option>Thrice a Day</option>
+        </select>
+    
+        <label for="time-intake">Time of Intake</label>
+        <input type="text" id="time-intake" placeholder="e.g., 9:00 AM, 8:00 PM" />
+    
+        <label for="date-range">Start Date / End Date</label>
+        <div class="date-inputs">
+          <input type="date" id="start-date" />
+          <input type="date" id="end-date" />
+        </div>
+    
+        <label for="special-instructions">Special Instructions</label>
+        <textarea id="special-instructions" placeholder="e.g., Take with food"></textarea>
+    
+        <div class="buttons">
+          <button type="button" class="add-button">Add</button>
+          <button type="button" class="remove-button">Remove</button>
+        </div>
+      </form>
+    </div>
+    
+
+    </body>
+    </html>
