@@ -22,9 +22,9 @@
         
         
       {% if user.is_authenticated %}
-      <button class="btnlogin-popup" onclick="location.href='{% url 'logout' %}'">Logout</button>
+      <a class="btnlogin-popup" href="{% url 'logout' %}">Logout</a>
       {% else %}
-        <button class="btnlogin-popup" onclick="location.href='{% url 'login' %}'">Login</button>
+      <a class="btnlogin-popup" href="{% url 'login' %}">Login</a>
       {% endif %}
       </nav>
     </header>

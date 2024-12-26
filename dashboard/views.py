@@ -11,3 +11,6 @@ def index(request):
 
 def test(request):
     return render(request, "dashboard/test.html")
+
+def kritika(request):
+    return render(request, "dashboard/kritika.html")
