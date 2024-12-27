@@ -11,12 +11,13 @@ def PatientTimeTable(request):
         medicine_name = request.POST.get("medicine_name")
         medicine_dosage = request.POST.get("medicine_dosage")
         medicine_days = request.POST.getlist("medicine_days")
-        medicine_gap = request.POST.get("medicine_frequency")
-        medicine_time = request.POST.get("medicine_time")
-        medicine_start_date = request.POST.get("medicine_start_date")
-        medicine_end_date = request.POST.get("medicine_end_date")
+        medicine_gap = request.POST.get("medicine_gap") # gap between each dose in hours
+        medicine_time = request.POST.get("medicine_time") # first dose time
+        medicine_start_date = request.POST.get("medicine_start_date") # start date
+        medicine_end_date = request.POST.get("medicine_end_date") #end date
         medicine_notes = request.POST.get("medicine_notes")
-        tags = request.POST.getlist("tags")
+        # tags = request.POST.getlist("tags")
+
         try:
             medicine_schedule = PatientMedicineSchedule.objects.create(
                 patient=patient,
@@ -28,7 +29,7 @@ def PatientTimeTable(request):
                 medicine_end_date=medicine_end_date,
                 medicine_notes=medicine_notes
             )
-
+            #adds many-to-many relationship to medicine and days
             for day in medicine_days:
                 day_instance = Days.objects.get(day=day)
                 medicine_schedule.medicine_days.add(day_instance)
@@ -42,6 +43,9 @@ def PatientTimeTable(request):
         except Exception as e:
             print(f"An error occurred: {e}")
 
-        return render(request, "dashboard/medicine_timetable.html")
+        
 
-    return render(request, "dashboard/medicine_timetable.html")
+        context = {"hours" : range(0,24), "days": Days.objects.all(), "medicine_schedules": PatientMedicineSchedule.objects.filter(patient=patient).order_by('medicine_time')}
+        return render(request, "dashboard/medicine_timetable.html", context)
+
+    return render(request, "dashboard/medicine_timetable.html", context={"hours" : range(0,24), "days": Days.objects.all(), "medicine_schedules": PatientMedicineSchedule.objects.filter(patient=PatientProfile.objects.first()).order_by('medicine_time')})

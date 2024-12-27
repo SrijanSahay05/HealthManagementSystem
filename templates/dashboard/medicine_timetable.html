@@ -1,42 +1,100 @@
-<html>
-<head>
-    <title>Medicine Timetable</title>
-</head>
-<body>
-  <h1>Medicine Timetable</h1>
-  <form action={% url 'timetable'%} method="post">
-    {% csrf_token %}
-    <input type="text" name="medicine_name" placeholder="Medicine Name" required />
-    <input type="text" name="medicine_dosage" placeholder="Dosage" required />
-   
+{% extends "basetemplates/base.html" %}
 
-    {% comment %} <input type"text" name="medicine_days" placeholder="Days" required /> {% endcomment %}
-    {% comment %} <div id="days">
-      <input type="checkbox" name="medicine_days" value="Monday" />Monday
-      <input type="checkbox" name="medicine_days" value="Tuesday" />Tuesday
-      <input type="checkbox" name="medicine_days" value="Wednesday" />Wednesday
-      <input type="checkbox" name="medicine_days" value="Thursday" />Thursday
-      <input type="checkbox" name="medicine_days" value="Friday" />Friday
-      <input type="checkbox" name="medicine_days" value="Saturday" />Saturday
-      <input type="checkbox" name="medicine_days" value="Sunday" />Sunday
-    </div> {% endcomment %}
-  <label for="medicine_days_select">Select Days:</label>
-  <select id="medicine_days_select" name="medicine_days" multiple>
-    <option value="Monday">Monday</option>
-    <option value="Tuesday">Tuesday</option>
-    <option value="Wednesday">Wednesday</option>
-    <option value="Thursday">Thursday</option>
-    <option value="Friday">Friday</option>
-    <option value="Saturday">Saturday</option>
-    <option value="Sunday">Sunday</option>
-  </select>
-    <input type="text" name="medicine_gap" placeholder="Gap in hours before the next dose " required />
-    <input type="time" name="medicine_time" placeholder="Time" required />
-    <input type="date" name="medicine_start_date" placeholder="StartDate" required />
-    <input type="date" name="medicine_end_date" placeholder="EndDate" required />
-    <input type="text" name="medicine_notes" placeholder="Notes"  />
-    {% comment %} <input type="text" name="medicine_tags" placeholder="Tags" /> {% endcomment %}
-    <button type="submit" name="add_medicine">Add</button>
-  </form>
-</body>
-</html>
+{% block content %}
+<div class="container">
+  <div class="item" id="medicine-box">
+    <form class="form-haha" action="{% url 'timetable' %}" method="post">
+      {% csrf_token %}
+      <div class="medicine-input">
+        <input class="boxx-medicine" type="text" name="medicine_name" placeholder="Medicine Name" required />
+      </div>
+
+      <div class="medicine-input">
+        <input class="boxx" type="text" name="medicine_dosage" placeholder="Dosage" required />
+      </div>
+
+      <div class="medicine-input">
+        <label for="medicine_days_select">Select Days:</label>
+        <select id="medicine_days_select" name="medicine_days" multiple>
+          <option value="Monday">Monday</option>
+          <option value="Tuesday">Tuesday</option>
+          <option value="Wednesday">Wednesday</option>
+          <option value="Thursday">Thursday</option>
+          <option value="Friday">Friday</option>
+          <option value="Saturday">Saturday</option>
+          <option value="Sunday">Sunday</option>
+        </select>
+      
+      </div>
+
+      
+
+      <div class="medicine-input">
+        <input class="boxx" type="number" name="medicine_gap" placeholder="Gap in hours" required />
+      </div>
+
+      <div class="medicine-input">
+        <input class="boxx" type="time" name="medicine_time" required />
+      </div>
+
+      <div class="medicine-input">
+        <input class="boxx" type="date" name="medicine_start_date" required />
+      </div>
+
+      <div class="medicine-input">
+        <input class="boxx" type="date" name="medicine_end_date" required />
+      </div>
+
+      <div class="medicine-input">
+        <input class="boxx" type="text" name="medicine_notes" placeholder="Notes" />
+      </div>
+
+      <button type="submit" class="button" name="add_medicine">Add</button>
+    </form>
+  </div>
+
+  <div class="item" id="calander-box">
+    <table class="timetable" style="width: 100%; border: 1px solid black; border-collapse: collapse;">
+      <thead>
+        <tr>
+          <th style="border: 1px solid black;">Time</th>
+          {% for day in days %}
+          <th style="border: 1px solid black;">{{ day.day }}</th>
+          {% endfor %}
+        </tr>
+      </thead>
+      <tbody>
+        {% for hour in hours %}
+        <tr>
+          <td style="border: 1px solid black;">{{ hour }}:00</td>
+          {% for day in days %}
+          <td style="border: 1px solid black;">
+            {% for schedule in medicine_schedules %}
+              {% if day in schedule.medicine_days.all and schedule.medicine_time.hour == hour %}
+                {{ schedule.medicine_name }} <br>
+              {% endif %}
+            {% endfor %}
+          </td>
+          {% endfor %}
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+
+    <div>
+      <h3>Available Schedules:</h3>
+      <ol>
+        {% for schedule in medicine_schedules %}
+          <li>
+        {{ schedule.medicine_name }} - {{ schedule.medicine_time }} on {{ schedule.medicine_start_date }} to {{ schedule.medicine_end_date }} (Days: 
+        {% for day in schedule.medicine_days.all %}
+          {{ day }}{% if not forloop.last %}, {% endif %}
+        {% endfor %}
+        )
+          </li>
+        {% endfor %}
+      </ol>
+    </div>
+  </div>
+</div>
+{% endblock %}
