@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     # user defined APPS
     "users",
     "dashboard",
+    "patientdata",
     #third-party APPS
     "allauth",
     "allauth.account",

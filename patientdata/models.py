@@ -18,7 +18,7 @@ class PatientMedicineSchedule(models.Model):
     medicine_name = models.CharField(max_length=50)
     medicine_dosage = models.CharField(max_length=50)
     medicine_days = models.ManyToManyField(Days, related_name='schedules')
-    medicine_frequency = models.IntegerField(help_text="Number of times the medicine should be taken per day")
+    medicine_gap = models.IntegerField(help_text="Gap between each dose in hours", blank=True, null=True)
     medicine_time = models.TimeField()
     medicine_start_date = models.DateField(null=True, blank=True)
     medicine_end_date = models.DateField(null=True, blank=True)
@@ -26,4 +26,4 @@ class PatientMedicineSchedule(models.Model):
     tags = models.ManyToManyField(MedicineTag, related_name='schedules')
 
     def __str__(self):
-        return f"{self.patient.user.email} - {self.medicine_name}"
+        return f"{self.medicine_name} for {self.patient.user.username}"

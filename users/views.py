@@ -20,7 +20,7 @@ def login_register(request):
             register_email = request.POST.get("register_email")
             register_password = request.POST.get("register_password")
             register_confirm_password = request.POST.get("register_confirm_password")
-            print(register_email, register_password, register_confirm_password) 
+            # print(register_email, register_password, register_confirm_password) 
             if register_password != register_confirm_password:
                 return render(request, "dashboard/login_register.html", {"register_form": CustomUserCreationForm(), "error": "Passwords do not match."})
             try:

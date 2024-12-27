@@ -26,3 +26,26 @@ class CustomUser(AbstractUser):
 
     def __str__(self):
         return  self.email
+    
+class PatientProfile(models.Model):
+    user = models.OneToOneField(CustomUser, on_delete=models.CASCADE)
+    blood_group = models.CharField(max_length=3, blank=True, null=True)
+    bp_patient = models.BooleanField(default=False, blank=True, null=True)
+    diabetes_patient = models.BooleanField(default=False, blank=True, null=True)
+
+    def __str__(self):
+        return f"Patient Profile for: {self.user.email}"
+    
+class DoctorProfile(models.Model):
+    user = models.OneToOneField(CustomUser, on_delete=models.CASCADE)
+    specialization = models.CharField(max_length=50, blank=True, null=True)
+    
+    #add hospital model over here for appointment booking#
+
+    def __str__(self):
+        return f"Doctor Profile for: {self.user.email}"
+
+    
+    
+
+
