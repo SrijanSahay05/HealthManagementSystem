@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Sunny Lemons</title>
+    <link rel="stylesheet" href="finaltimetable.css">
+</head>
+<body>
+
+<header>
+    <div class="logo"><img src="logo.png" alt="SUNNY LEMONS"></div>
+    <div class="navigation">
+      <a href="#">Locate</a>
+      <a href="#">Book</a>
+      <a href="#">Timetable</a>
+      <a href="#">Medicine</a>
+      <button class="btnsignup-popup">Signup</button>
+    </div>
+</header>
+
+
+  
+  <div class="container">
+      <div class="item" id="medicine-box"> 
+        
+        <form class="form-haha" action={% url 'timetable'%} method="post">
+        
+        <div class="medicine-input">
+          <input class="boxx-medicine" type="text" name="medicine_name" placeholder="Medicine Name" required />
+          
+        </div>
+        
+        <div class="medicine-input">
+          <input class="boxx" type="text" name="medicine_dosage" placeholder="Dosage" required />
+        </div>
+
+        <div class="medicine-input">
+      <label class="select-text" for="medicine_days_select">
+        Select Days:
+      </label>
+    </div>
+
+    <div class="medicine-input">
+      <div class="checkbox">
+      <input class="boxx" type="checkbox" name="medicine_days" value="Monday" />M
+      <input class="boxx" type="checkbox" name="medicine_days" value="Tuesday" />T
+      <input class="boxx" type="checkbox" name="medicine_days" value="Wednesday" />W
+      <input class="boxx" type="checkbox" name="medicine_days" value="Thursday" />Th
+      </div>
+      <div class="checkbox">
+      <input class="boxx" type="checkbox" name="medicine_days" value="Friday" />F
+      <input class="boxx" type="checkbox" name="medicine_days" value="Saturday" />Sat
+      <input class="boxx" type="checkbox" name="medicine_days" value="Sunday" />S
+    </div>
+  </div>
+        
+    
+
+    <div class="medicine-input">
+        <input class="boxx-hrs" type="text" name="medicine_gap" placeholder="Gap in hours before the next dose " required />
+      </div>
+        <div class="medicine-input">   
+        <input class="boxx" type="time" name="medicine_time" placeholder="Time" required />
+      </div>
+        <div class="medicine-input">
+        <input class="boxx" type="date" name="medicine_start_date" placeholder="StartDate" required />
+      </div>
+        <div class="medicine-input">
+        <input class="boxx" type="date" name="medicine_end_date" placeholder="EndDate" required />
+      </div>
+        <div class="medicine-input">
+        <input class="boxx" type="text" name="medicine_notes" placeholder="Notes"  />
+      </div>
+         
+        <!-- {% comment %} 
+        <input type="text" name="medicine_tags" placeholder="Tags" />
+         {% endcomment %} -->
+        
+         <button type="submit" class="button" name="add_medicine">
+          Add
+        </button>
+        
+      
+      </form>
+    
+    </div>
+      <div class="item" id="calander-box"></div>
+      
+     
+  </div>
+
+
+
+</body>
+</html>
