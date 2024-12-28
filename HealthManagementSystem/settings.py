@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     "users",
     "dashboard",
     "patientdata",
+    "appointmentbooking",
     #third-party APPS
     "allauth",
     "allauth.account",

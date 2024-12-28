@@ -48,4 +48,4 @@ def PatientTimeTable(request):
         context = {"hours" : range(0,24), "days": Days.objects.all(), "medicine_schedules": PatientMedicineSchedule.objects.filter(patient=patient).order_by('medicine_time')}
         return render(request, "dashboard/medicine_timetable.html", context)
 
-    return render(request, "dashboard/medicine_timetable.html", context={"hours" : range(0,24), "days": Days.objects.all(), "medicine_schedules": PatientMedicineSchedule.objects.filter(patient=PatientProfile.objects.first()).order_by('medicine_time')})
+    return render(request, "dashboard/medicine_timetable.html", context={"hours" : range(0,24), "days": Days.objects.all(), "medicine_schedules": PatientMedicineSchedule.objects.filter(patient=PatientProfile.objects.first())})

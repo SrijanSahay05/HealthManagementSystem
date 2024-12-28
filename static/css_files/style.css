@@ -108,7 +108,7 @@ header{
 .wrapper {
   position: relative;
   width: 400px;
-  height: 440px;
+  height: 525px;
   background: transparent;
   border-radius: 20px;
   backdrop-filter: blur(20px);
