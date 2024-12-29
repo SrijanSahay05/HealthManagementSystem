@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doctor Profile</title>
+</head>
+<body>
+    <header>
+        <h1>Doctor Profile</h1>
+    </header>
+    <main>
+        <div>
+            <h2>Welcome, {{ doctor.user.username }}</h2>
+            <p>Email: {{ doctor.user.email }}</p>
+            <p> Specialisation: {{ doctor.specialization }}</p>
+            <p> Appointment Duration: {{ doctor.appointment_duration }} minutes</p>
+            <p> Appointment Fees: {{ doctor.appointment_fees }} INR</p>
+        </div>
+        <form method="POST" action="{% url 'doctor_profile' %}">
+            {% csrf_token %}
+            <div>
+                <label for="specialisation">Specialisation:</label>
+                <input type="text" id="specialisation" name="specialization" required value="{{ doctor.specialization }}">
+            </div>
+            <div>
+                <label for="appointment_duration">Appointment Duration (minutes):</label>
+                <input type="number" id="appointment_duration" name="appointment_duration" required value="{{ doctor.appointment_duration }}">
+            </div>
+            <div>
+                <label for="appointment_fees">Appointment Fees (INR):</label>
+                <input type="number" id="appointment_fees" name="appointment_fees" required value="{{ doctor.appointment_fees }}">
+            </div>
+            <div>
+                <label for="hospitals_associated">Hospitals Associated:</label>
+                <select id="hospitals_associated" name="hospitals_associated" required>
+                    {% for hospital in hospitals %}
+                        <option value="{{ hospital.id }}" {% if hospital in doctor.hospitals_associated.all %}selected{% endif %}>{{ hospital.hospital_name }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+            <div>
+                <button type="submit">Submit</button>
+            </div>
+            <p>Associated Hospital:</p>
+            <ul>
+                {% for hospital in doctor.hospitals_associated.all %}
+                    <li>{{ hospital.hospital_name }}</li>
+                {% endfor %}
+            </ul>
+        </form>
+    </main>
+</body>
+</html>
