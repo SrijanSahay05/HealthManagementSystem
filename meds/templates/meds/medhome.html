@@ -1,0 +1,35 @@
+{% extends 'meds/base.html' %}
+
+{% block title %}Medicine Home{% endblock %}
+
+{% block content %}
+<h2>Search Medicines</h2>
+<form method="GET" action="">
+    <input type="text" name="q" placeholder="Search by medicine name or use" value="{{ request.GET.q }}">
+    <button type="submit">Search</button>
+</form>
+
+<h2>Medicines and Their Uses</h2>
+{% if medicines %}
+    <ul>
+        {% for medicine in medicines %}
+            <li>
+                <strong>{{ medicine.name }}</strong>
+            
+                <li>Possible Side Effects: 
+                    {{ medicine.side_effects }}</li>
+                <ul>
+                    <li>Uses:</li>
+                    <ul>
+                        {% for use in medicine.uses.all %}
+                            <li>{{ use.name }}: {{ use.description }}</li>
+                        {% endfor %}
+                    </ul>
+                </ul>
+            </li>
+        {% endfor %}
+    </ul>
+{% else %}
+    <p>No medicines found.</p>
+{% endif %}
+{% endblock %}
