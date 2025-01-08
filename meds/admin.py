@@ -5,4 +5,3 @@ from .models import uses
 admin.site.register(medicine)
 admin.site.register(uses)
 
-

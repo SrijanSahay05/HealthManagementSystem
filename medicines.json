@@ -1,0 +1,3458 @@
+[
+  {
+    "model": "meds.medicine",
+    "pk": 1,
+    "fields": {
+      "name": "5-aminosalicylic acid (Mesalazine/Mesalaine)",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 2,
+    "fields": {
+      "name": "5-Fluorouracil",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 3,
+    "fields": {
+      "name": "6-Mercaptopurine",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 4,
+    "fields": {
+      "name": "Abacavir",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 5,
+    "fields": {
+      "name": "Abacavir (A) + Lamivudine (B)",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 6,
+    "fields": {
+      "name": "Acetazolamide",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 7,
+    "fields": {
+      "name": "Acetylsalicylic acid",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 8,
+    "fields": {
+      "name": "Actinomycin D",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 9,
+    "fields": {
+      "name": "Activated Charcoal",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 10,
+    "fields": {
+      "name": "Acyclovir",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 11,
+    "fields": {
+      "name": "Adenosine",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 12,
+    "fields": {
+      "name": "Adrenaline",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 13,
+    "fields": {
+      "name": "Albendazole",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 14,
+    "fields": {
+      "name": "Allopurinol",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 15,
+    "fields": {
+      "name": "All-trans retinoic acid",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 16,
+    "fields": {
+      "name": "Alprostadil",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 17,
+    "fields": {
+      "name": "Amikacin",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 18,
+    "fields": {
+      "name": "Amiodarone",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 19,
+    "fields": {
+      "name": "Amitriptyline",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 20,
+    "fields": {
+      "name": "Amlodipine",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 21,
+    "fields": {
+      "name": "Amoxicillin",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 22,
+    "fields": {
+      "name": "Amoxicillin (A) + Clavulanic acid (B)",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 23,
+    "fields": {
+      "name": "Amphotericin B",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 24,
+    "fields": {
+      "name": "Ampicillin",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 25,
+    "fields": {
+      "name": "Anti-D immunoglobulin",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 26,
+    "fields": {
+      "name": "Anti-rabies immunoglobulin",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 27,
+    "fields": {
+      "name": "Anti-tetanus immunoglobulin",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 28,
+    "fields": {
+      "name": "Arsenic trioxide",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 29,
+    "fields": {
+      "name": "Artemether (A) + Lumefantrine (B)",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 30,
+    "fields": {
+      "name": "Artesunate",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 31,
+    "fields": {
+      "name": "Artesunate (A) + Sulphadoxine",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 32,
+    "fields": {
+      "name": "Ascorbic acid (Vitamin C)",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 33,
+    "fields": {
+      "name": "Atazanavir (A) + Ritonavir (B)",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 34,
+    "fields": {
+      "name": "Atorvastatin",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 35,
+    "fields": {
+      "name": "Atracurium",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 36,
+    "fields": {
+      "name": "Atropine",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 37,
+    "fields": {
+      "name": "Azathioprine",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 38,
+    "fields": {
+      "name": "Azithromycin",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 39,
+    "fields": {
+      "name": "Baclofen",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 40,
+    "fields": {
+      "name": "Barium sulphate",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 41,
+    "fields": {
+      "name": "BCG vaccine",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 42,
+    "fields": {
+      "name": "Bedaquiline",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 43,
+    "fields": {
+      "name": "Bendamustine Hydrochloride",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 44,
+    "fields": {
+      "name": "Benzathine benzylpenicillin",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 45,
+    "fields": {
+      "name": "Benzoyl peroxide",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 46,
+    "fields": {
+      "name": "Benzylpenicillin",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 47,
+    "fields": {
+      "name": "Betamethasone",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 48,
+    "fields": {
+      "name": "Betamethasone (valerate)",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 49,
+    "fields": {
+      "name": "Bicalutamide",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 50,
+    "fields": {
+      "name": "Bisacodyl",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 51,
+    "fields": {
+      "name": "Bleomycin",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 52,
+    "fields": {
+      "name": "Bortezomib",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 53,
+    "fields": {
+      "name": "Budesonide",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 54,
+    "fields": {
+      "name": "Budesonide (A) +Formoterol (B)",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 55,
+    "fields": {
+      "name": "Bupivacaine",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 56,
+    "fields": {
+      "name": "Buprenorphine",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 57,
+    "fields": {
+      "name": "Buprenorphine (A) + Naloxone (B)",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 58,
+    "fields": {
+      "name": "Caffeine",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 59,
+    "fields": {
+      "name": "Calamine",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 60,
+    "fields": {
+      "name": "Calcium carbonate",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 61,
+    "fields": {
+      "name": "Calcium folinate",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 62,
+    "fields": {
+      "name": "Calcium gluconate",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 63,
+    "fields": {
+      "name": "Capecitabine",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 64,
+    "fields": {
+      "name": "Carbamazepine",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 65,
+    "fields": {
+      "name": "Carbimazole",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 66,
+    "fields": {
+      "name": "Carboplatin",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 67,
+    "fields": {
+      "name": "Carboxymethyl cellulose",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 68,
+    "fields": {
+      "name": "Cefadroxil",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 69,
+    "fields": {
+      "name": "Cefazolin",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 70,
+    "fields": {
+      "name": "Cefixime",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 71,
+    "fields": {
+      "name": "Cefotaxime",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 72,
+    "fields": {
+      "name": "Ceftazidime",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 73,
+    "fields": {
+      "name": "Ceftriaxone",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 74,
+    "fields": {
+      "name": "Cefuroxime",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 75,
+    "fields": {
+      "name": "Cetirizine",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 76,
+    "fields": {
+      "name": "Chlorambucil",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 77,
+    "fields": {
+      "name": "Chlorhexidine",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 78,
+    "fields": {
+      "name": "Chloroquine",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 79,
+    "fields": {
+      "name": "Cholecalciferol",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 80,
+    "fields": {
+      "name": "Ciprofloxacin",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 81,
+    "fields": {
+      "name": "Cisplatin",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 82,
+    "fields": {
+      "name": "Clarithromycin",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 83,
+    "fields": {
+      "name": "Clindamycin",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 84,
+    "fields": {
+      "name": "Clobazam",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 85,
+    "fields": {
+      "name": "Clofazimine",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 86,
+    "fields": {
+      "name": "Clomiphene citrate",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 87,
+    "fields": {
+      "name": "Clomipramine",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 88,
+    "fields": {
+      "name": "Clonazepam",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 89,
+    "fields": {
+      "name": "Clopidogrel",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 90,
+    "fields": {
+      "name": "Clotrimazole",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 91,
+    "fields": {
+      "name": "Cloxacillin",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 92,
+    "fields": {
+      "name": "Clozapine",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 93,
+    "fields": {
+      "name": "Coagulation factor IX",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 94,
+    "fields": {
+      "name": "Coagulation factor VIII",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 95,
+    "fields": {
+      "name": "Coal tar (A) + Salicylic Acid (B)",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 96,
+    "fields": {
+      "name": "Colchicine",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 97,
+    "fields": {
+      "name": "Condom",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 98,
+    "fields": {
+      "name": "Co-trimoxazole [Sulphamethoxazole (A) + Trimethoprim (B)]",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 99,
+    "fields": {
+      "name": "Cryoprecipitate",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 100,
+    "fields": {
+      "name": "Cyclophosphamide",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 101,
+    "fields": {
+      "name": "Cycloserine",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 102,
+    "fields": {
+      "name": "Cyclosporine",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 103,
+    "fields": {
+      "name": "Cytosine arabinoside",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 104,
+    "fields": {
+      "name": "D- Penicillamine",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 105,
+    "fields": {
+      "name": "Dabigatran",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 106,
+    "fields": {
+      "name": "Dacarbazine",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 107,
+    "fields": {
+      "name": "Daclatasvir",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 108,
+    "fields": {
+      "name": "Dapsone",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 109,
+    "fields": {
+      "name": "Darunavir",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 110,
+    "fields": {
+      "name": "Darunavir (A) + Ritonavir (B)",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 111,
+    "fields": {
+      "name": "Daunorubicin",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 112,
+    "fields": {
+      "name": "Delamanid",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 113,
+    "fields": {
+      "name": "Desferrioxamine",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 114,
+    "fields": {
+      "name": "Dexamethasone",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 115,
+    "fields": {
+      "name": "Dextran-40",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 116,
+    "fields": {
+      "name": "Diazepam",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 117,
+    "fields": {
+      "name": "Diclofenac",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 118,
+    "fields": {
+      "name": "Dicyclomine",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 119,
+    "fields": {
+      "name": "Diethylcarbamazine",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 120,
+    "fields": {
+      "name": "Digoxin",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 121,
+    "fields": {
+      "name": "Diltiazem",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 122,
+    "fields": {
+      "name": "Dinoprostone",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 123,
+    "fields": {
+      "name": "Diphtheria antitoxin",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 124,
+    "fields": {
+      "name": "Dobutamine",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 125,
+    "fields": {
+      "name": "Docetaxel",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 126,
+    "fields": {
+      "name": "Dolutegravir",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 127,
+    "fields": {
+      "name": "Domperidone",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 128,
+    "fields": {
+      "name": "Donepezil",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 129,
+    "fields": {
+      "name": "Dopamine",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 130,
+    "fields": {
+      "name": "Doxorubicin",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 131,
+    "fields": {
+      "name": "Doxycycline",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 132,
+    "fields": {
+      "name": "DPT vaccine",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 133,
+    "fields": {
+      "name": "DPT+ Hib+ Hep B vaccine",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 134,
+    "fields": {
+      "name": "Efavirenz",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 135,
+    "fields": {
+      "name": "Enalapril",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 136,
+    "fields": {
+      "name": "Enoxaparin",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 137,
+    "fields": {
+      "name": "Entecavir",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 138,
+    "fields": {
+      "name": "Erythropoietin",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 139,
+    "fields": {
+      "name": "Escitalopram",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 140,
+    "fields": {
+      "name": "Esmolol",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 141,
+    "fields": {
+      "name": "Ethambutol",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 142,
+    "fields": {
+      "name": "Ethinylestradiol (A) + Levonorgestrel (B)",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 143,
+    "fields": {
+      "name": "Ethionamide",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 144,
+    "fields": {
+      "name": "Ethyl alcohol (Denatured)",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 145,
+    "fields": {
+      "name": "Etoposide",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 146,
+    "fields": {
+      "name": "Fentanyl",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 147,
+    "fields": {
+      "name": "Ferrous Salts (A) + Folic Acid (B)",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 148,
+    "fields": {
+      "name": "Ferrous salts",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 149,
+    "fields": {
+      "name": "Filgrastim",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 150,
+    "fields": {
+      "name": "Fluconazole",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 151,
+    "fields": {
+      "name": "Fludrocortisone",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 152,
+    "fields": {
+      "name": "Flunarizine",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 153,
+    "fields": {
+      "name": "Fluorescein",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 154,
+    "fields": {
+      "name": "Fluoxetine",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 155,
+    "fields": {
+      "name": "Fluphenazine",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 156,
+    "fields": {
+      "name": "Folic Acid",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 157,
+    "fields": {
+      "name": "Framycetin",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 158,
+    "fields": {
+      "name": "Fresh frozen plasma",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 159,
+    "fields": {
+      "name": "Furosemide",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 160,
+    "fields": {
+      "name": "Fusidic acid",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 161,
+    "fields": {
+      "name": "Gadobenate dimeglumine",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 162,
+    "fields": {
+      "name": "Gefitinib",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 163,
+    "fields": {
+      "name": "Gemcitabine",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 164,
+    "fields": {
+      "name": "Gentamicin",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 165,
+    "fields": {
+      "name": "Glimepiride",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 166,
+    "fields": {
+      "name": "Glucose",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 167,
+    "fields": {
+      "name": "Glucose(A) + Sodium chloride (B)",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 168,
+    "fields": {
+      "name": "Glutaraldehyde",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 169,
+    "fields": {
+      "name": "Glycerin",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 170,
+    "fields": {
+      "name": "Glyceryl trinitrate",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 171,
+    "fields": {
+      "name": "Glycopyrrolate",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 172,
+    "fields": {
+      "name": "Griseofulvin",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 173,
+    "fields": {
+      "name": "Haemodialysis fluid",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 174,
+    "fields": {
+      "name": "Haloperidol",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 175,
+    "fields": {
+      "name": "Halothane",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 176,
+    "fields": {
+      "name": "Heparin",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 177,
+    "fields": {
+      "name": "Hepatitis B immunoglobulin",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 178,
+    "fields": {
+      "name": "Hepatitis B vaccine",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 179,
+    "fields": {
+      "name": "Homatropine",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 180,
+    "fields": {
+      "name": "Hormone releasing IUD",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 181,
+    "fields": {
+      "name": "Human chorionic gonadotropin",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 182,
+    "fields": {
+      "name": "Human normal immunoglobulin",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 183,
+    "fields": {
+      "name": "Hydrochlorothiazide",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 184,
+    "fields": {
+      "name": "Hydrocortisone",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 185,
+    "fields": {
+      "name": "Hydrogen Peroxide",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 186,
+    "fields": {
+      "name": "Hydroxocobalamine",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 187,
+    "fields": {
+      "name": "Hydroxychloroquine",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 188,
+    "fields": {
+      "name": "Hydroxypropyl methylcellulose",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 189,
+    "fields": {
+      "name": "Hydroxyurea",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 190,
+    "fields": {
+      "name": "Hyoscine butylbromide",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 191,
+    "fields": {
+      "name": "Ibuprofen",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 192,
+    "fields": {
+      "name": "Ifosfamide",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 193,
+    "fields": {
+      "name": "Imatinib",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 194,
+    "fields": {
+      "name": "Insulin (Soluble)",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 195,
+    "fields": {
+      "name": "Insulin Glargine",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 196,
+    "fields": {
+      "name": "Insulin Intermediate Acting (NPH)",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 197,
+    "fields": {
+      "name": "Insulin Premix Injection 30:70 (Regular : NPH)",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 198,
+    "fields": {
+      "name": "Iohexol",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 199,
+    "fields": {
+      "name": "Ipratropium",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 200,
+    "fields": {
+      "name": "Irinotecan HCI Trihydrate",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 201,
+    "fields": {
+      "name": "Iron sucrose",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 202,
+    "fields": {
+      "name": "Isoflurane",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 203,
+    "fields": {
+      "name": "Isoniazid",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 204,
+    "fields": {
+      "name": "Isosorbide dinitrate",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 205,
+    "fields": {
+      "name": "Ispaghula",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 206,
+    "fields": {
+      "name": "Itraconazole",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 207,
+    "fields": {
+      "name": "IUD containing Copper",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 208,
+    "fields": {
+      "name": "Ivermectin",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 209,
+    "fields": {
+      "name": "Japanese Encephalitis Vaccine",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 210,
+    "fields": {
+      "name": "Ketamine",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 211,
+    "fields": {
+      "name": "Labetalol",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 212,
+    "fields": {
+      "name": "Lactulose",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 213,
+    "fields": {
+      "name": "Lamivudine",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 214,
+    "fields": {
+      "name": "L-Asparaginase",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 215,
+    "fields": {
+      "name": "Latanoprost",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 216,
+    "fields": {
+      "name": "Lenalidomide",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 217,
+    "fields": {
+      "name": "Letrozole",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 218,
+    "fields": {
+      "name": "Leuprolide acetate",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 219,
+    "fields": {
+      "name": "Levetiracetam",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 220,
+    "fields": {
+      "name": "Levodopa (A) + Carbidopa (B)",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 221,
+    "fields": {
+      "name": "Levofloxacin",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 222,
+    "fields": {
+      "name": "Levonorgestrel",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 223,
+    "fields": {
+      "name": "Levothyroxine",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 224,
+    "fields": {
+      "name": "Lignocaine",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 225,
+    "fields": {
+      "name": "Lignocaine (A) + Adrenaline (B)",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 226,
+    "fields": {
+      "name": "Linezolid",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 227,
+    "fields": {
+      "name": "Lithium",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 228,
+    "fields": {
+      "name": "Loperamide",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 229,
+    "fields": {
+      "name": "Lopinavir (A) + Ritonavir (B)",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 230,
+    "fields": {
+      "name": "Lorazepam",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 231,
+    "fields": {
+      "name": "Magnesium sulphate",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 232,
+    "fields": {
+      "name": "Mannitol",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 233,
+    "fields": {
+      "name": "Measles vaccine",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 234,
+    "fields": {
+      "name": "Mebendazole",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 235,
+    "fields": {
+      "name": "Medroxyprogesterone acetate",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 236,
+    "fields": {
+      "name": "Mefenamic acid",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 237,
+    "fields": {
+      "name": "Mefloquine",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 238,
+    "fields": {
+      "name": "Meglumine diatrizoate",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 239,
+    "fields": {
+      "name": "Melphalan",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 240,
+    "fields": {
+      "name": "Meropenem",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 241,
+    "fields": {
+      "name": "Mesna",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 242,
+    "fields": {
+      "name": "Metformin",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 243,
+    "fields": {
+      "name": "Methotrexate",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 244,
+    "fields": {
+      "name": "Methylergometrine",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 245,
+    "fields": {
+      "name": "Methylprednisolone",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 246,
+    "fields": {
+      "name": "Methylrosanilinium chloride (Gentian Violet)",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 247,
+    "fields": {
+      "name": "Methylthioninium chloride (Methylene blue)",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 248,
+    "fields": {
+      "name": "Metoclopramide",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 249,
+    "fields": {
+      "name": "Metoprolol",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 250,
+    "fields": {
+      "name": "Metronidazole",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 251,
+    "fields": {
+      "name": "Midazolam",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 252,
+    "fields": {
+      "name": "Mifepristone",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 253,
+    "fields": {
+      "name": "Miltefosine",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 254,
+    "fields": {
+      "name": "Misoprostol",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 255,
+    "fields": {
+      "name": "Montelukast",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 256,
+    "fields": {
+      "name": "Morphine",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 257,
+    "fields": {
+      "name": "Moxifloxacin",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 258,
+    "fields": {
+      "name": "Mupirocin",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 259,
+    "fields": {
+      "name": "Mycophenolate mofetil",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 260,
+    "fields": {
+      "name": "N-acetylcysteine",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 261,
+    "fields": {
+      "name": "Naloxone",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 262,
+    "fields": {
+      "name": "Natamycin",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 263,
+    "fields": {
+      "name": "Neostigmine",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 264,
+    "fields": {
+      "name": "Nevirapine",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 265,
+    "fields": {
+      "name": "Nicotine replacement therapy (NRT)",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 266,
+    "fields": {
+      "name": "Nifedipine",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 267,
+    "fields": {
+      "name": "Nitrofurantoin",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 268,
+    "fields": {
+      "name": "Nitrous oxide",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 269,
+    "fields": {
+      "name": "Noradrenaline",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 270,
+    "fields": {
+      "name": "Norethisterone",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 271,
+    "fields": {
+      "name": "Nystatin",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 272,
+    "fields": {
+      "name": "Omeprazole",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 273,
+    "fields": {
+      "name": "Ondansetron",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 274,
+    "fields": {
+      "name": "Oral poliomyelitis vaccine",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 275,
+    "fields": {
+      "name": "Oral rehydration salts",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 276,
+    "fields": {
+      "name": "Ormeloxifene (Centchroman)",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 277,
+    "fields": {
+      "name": "Oxaliplatin",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 278,
+    "fields": {
+      "name": "Oxygen",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 279,
+    "fields": {
+      "name": "Oxytocin",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 280,
+    "fields": {
+      "name": "Paclitaxel",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 281,
+    "fields": {
+      "name": "Pantoprazole",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 282,
+    "fields": {
+      "name": "Para- aminosalicylic acid",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 283,
+    "fields": {
+      "name": "Paracetamol",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 284,
+    "fields": {
+      "name": "Paromomycin",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 285,
+    "fields": {
+      "name": "Peritoneal dialysis solution",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 286,
+    "fields": {
+      "name": "Permethrin",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 287,
+    "fields": {
+      "name": "Pheniramine",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 288,
+    "fields": {
+      "name": "Phenobarbitone",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 289,
+    "fields": {
+      "name": "Phenoxymethyl penicillin",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 290,
+    "fields": {
+      "name": "Phenylephrine",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 291,
+    "fields": {
+      "name": "Phenytoin",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 292,
+    "fields": {
+      "name": "Phytomenadione(Vitamin K1)",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 293,
+    "fields": {
+      "name": "Pilocarpine",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 294,
+    "fields": {
+      "name": "Piperacillin (A) + Tazobactam (B)*",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 295,
+    "fields": {
+      "name": "Platelet rich plasma/ Platelet concentrates",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 296,
+    "fields": {
+      "name": "Podophyllin resin",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 297,
+    "fields": {
+      "name": "Potassium chloride",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 298,
+    "fields": {
+      "name": "Potassium permanganate",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 299,
+    "fields": {
+      "name": "Povidone iodine",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 300,
+    "fields": {
+      "name": "Pralidoxime chloride (2-PAM)",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 301,
+    "fields": {
+      "name": "Praziquantel",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 302,
+    "fields": {
+      "name": "Prednisolone",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 303,
+    "fields": {
+      "name": "Primaquine",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 304,
+    "fields": {
+      "name": "Procaine Benzylpenicillin",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 305,
+    "fields": {
+      "name": "Proparacaine",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 306,
+    "fields": {
+      "name": "Propofol",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 307,
+    "fields": {
+      "name": "Propranolol",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 308,
+    "fields": {
+      "name": "Protamine Sulphate",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 309,
+    "fields": {
+      "name": "Pyrazinamide",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 310,
+    "fields": {
+      "name": "Pyridoxine",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 311,
+    "fields": {
+      "name": "Quinine",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 312,
+    "fields": {
+      "name": "Rabies vaccine",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 313,
+    "fields": {
+      "name": "Raltegravir",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 314,
+    "fields": {
+      "name": "Ramipril",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 315,
+    "fields": {
+      "name": "Red blood cells/ Packed RBCs",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 316,
+    "fields": {
+      "name": "Ribavirin",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 317,
+    "fields": {
+      "name": "Riboflavin",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 318,
+    "fields": {
+      "name": "Rifampicin",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 319,
+    "fields": {
+      "name": "Ringer lactate",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 320,
+    "fields": {
+      "name": "Risperidone",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 321,
+    "fields": {
+      "name": "Ritonavir",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 322,
+    "fields": {
+      "name": "Rituximab",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 323,
+    "fields": {
+      "name": "Rotavirus vaccine",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 324,
+    "fields": {
+      "name": "Salbutamol",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 325,
+    "fields": {
+      "name": "Salicylic acid",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 326,
+    "fields": {
+      "name": "Sevoflurane",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 327,
+    "fields": {
+      "name": "Silver sulphadiazine",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 328,
+    "fields": {
+      "name": "Snake Venom Antiserum",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 329,
+    "fields": {
+      "name": "Sodium bicarbonate",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 330,
+    "fields": {
+      "name": "Sodium chloride",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 331,
+    "fields": {
+      "name": "Sodium nitrite",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 332,
+    "fields": {
+      "name": "Sodium nitroprusside",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 333,
+    "fields": {
+      "name": "Sodium thiosulphate",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 334,
+    "fields": {
+      "name": "Sodium Valproate",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 335,
+    "fields": {
+      "name": "Sofosbuvir",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 336,
+    "fields": {
+      "name": "Somatostatin",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 337,
+    "fields": {
+      "name": "Spironolactone",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 338,
+    "fields": {
+      "name": "Streptokinase",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 339,
+    "fields": {
+      "name": "Streptomycin",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 340,
+    "fields": {
+      "name": "Succinylcholine",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 341,
+    "fields": {
+      "name": "Sulfasalazine",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 342,
+    "fields": {
+      "name": "Sumatriptan",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 343,
+    "fields": {
+      "name": "Surfactant",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 344,
+    "fields": {
+      "name": "Tacrolimus",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 345,
+    "fields": {
+      "name": "Tamoxifen",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 346,
+    "fields": {
+      "name": "Telmisartan",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 347,
+    "fields": {
+      "name": "Temozolomide",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 348,
+    "fields": {
+      "name": "Tenecteplase",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 349,
+    "fields": {
+      "name": "Teneligliptin",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 350,
+    "fields": {
+      "name": "Tenofovir (A) + Lamivudine (B)",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 351,
+    "fields": {
+      "name": "Tenofovir (A) + Lamivudine (B) + Dolutegravir (C)",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 352,
+    "fields": {
+      "name": "Tenofovir (A) + Lamivudine (B) + Efavirenz (C)",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 353,
+    "fields": {
+      "name": "Tenofovir Alafenamide Fumarate (TAF)",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 354,
+    "fields": {
+      "name": "Tenofovir Disproxil Fumarate (TDF)",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 355,
+    "fields": {
+      "name": "Terbinafine",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 356,
+    "fields": {
+      "name": "Tetanus toxoid",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 357,
+    "fields": {
+      "name": "Thalidomide",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 358,
+    "fields": {
+      "name": "Thiamine",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 359,
+    "fields": {
+      "name": "Thiopentone",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 360,
+    "fields": {
+      "name": "Timolol",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 361,
+    "fields": {
+      "name": "Tiotropium",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 362,
+    "fields": {
+      "name": "Tramadol",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 363,
+    "fields": {
+      "name": "Tranexamic acid",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 364,
+    "fields": {
+      "name": "Trastuzumab",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 365,
+    "fields": {
+      "name": "Trihexyphenidyl",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 366,
+    "fields": {
+      "name": "Tropicamide",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 367,
+    "fields": {
+      "name": "Tuberculin, Purified Protein derivative",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 368,
+    "fields": {
+      "name": "Valganciclovir",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 369,
+    "fields": {
+      "name": "Vancomycin",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 370,
+    "fields": {
+      "name": "Vecuronium",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 371,
+    "fields": {
+      "name": "Verapamil",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 372,
+    "fields": {
+      "name": "Vinblastine",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 373,
+    "fields": {
+      "name": "Vincristine",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 374,
+    "fields": {
+      "name": "Vitamin A",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 375,
+    "fields": {
+      "name": "Warfarin",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 376,
+    "fields": {
+      "name": "Water for Injection",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 377,
+    "fields": {
+      "name": "Whole blood",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 378,
+    "fields": {
+      "name": "Xylometazoline",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 379,
+    "fields": {
+      "name": "Zidovudine",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 380,
+    "fields": {
+      "name": "Zidovudine (A) + Lamivudine (B)",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 381,
+    "fields": {
+      "name": "Zidovudine (A) + Lamivudine (B) + Nevirapine (C)",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 382,
+    "fields": {
+      "name": "Zinc Sulphate",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 383,
+    "fields": {
+      "name": "Zoledronic acid",
+      "side_effects": "",
+      "uses": []
+    }
+  },
+  {
+    "model": "meds.medicine",
+    "pk": 384,
+    "fields": {
+      "name": "Zolpidem",
+      "side_effects": "",
+      "uses": []
+    }
+  }
+]
