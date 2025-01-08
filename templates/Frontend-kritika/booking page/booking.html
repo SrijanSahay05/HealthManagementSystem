@@ -23,36 +23,78 @@
 
   
   <div class="container">
-      <div class="item" id="medicine-box"> 
+       <div class="h5">
+        <p class="para">Find the Right Doctor for You!</p>
+        <p class="h7">Accessible, Affordable, and Convenient Medical Care!</p>
+      </div>
+    
+    <div class="item" id="medicine-box">    
+      <table>
+        <tr>
+          <th> <ion-icon name="location" src="location.svg"></ion-icon><input class="input" type="text" name="location" placeholder="location" required /></th>
+          <th><input class="input" type="text" name="specialisation" placeholder="specialisation" required /></th>
+          <th class="search-button"><button class="search">Search</button></th>
+        </tr>
         
-        <form class="form-haha" action={% url 'timetable'%} method="post">
+      </table>
+    </div>
+
+    <p class="h6"> Here’s a List of Trusted Doctors Matching Your Preferencesur</p> 
+     
+    <div class="item" id="calander-box">
+      <div class="doctor">
+        <div class="profile">
+          <img class="img" src="cat.png" alt="Profile Picture">
+        </div>
         
-        
-        
-        <div class="search-input">
-          <input class="boxx" id="boxx-1" type="text" name="medicine_dosage" placeholder="City" required />
+        <div class="details">
+          <p class="info" id="info1"> Dr. Beluga Singh</p>
+        <p class="info" id="info2"> Dentist (3 years experience) </p>
+        <p class="info" id="info3"> Vaishali Nagar, Jaipur</p>
+        <p class="info" id="info4"> Rizzler Clinic</p>
+       <div class="lastbox"><p class="info" id="info5"> $10 per consultation <button class="book">Book my Appointment</button></p> </div> 
+       
+        </div> 
+
+      </div>
+
+        <div class="doctor">
+          <div class="profile">
+            <img class="img" src="doggo.png" alt="Profile Picture">
+          </div>
+          
+          <div class="details">
+            <p class="info" id="info1"> Dr. Doggo Singh</p>
+          <p class="info" id="info2"> Dentist (11 years experience) </p>
+          <p class="info" id="info3"> Mansarovar, Jaipur</p>
+          <p class="info" id="info4"> Lord Rizzler Clinic</p>
+          <div class="lastbox"><p class="info" id="info5"> $10 per consultation <button class="book">Book my Appointment</button></p> </div> 
+       
+        </div> 
+
+      
         </div>
 
-    
-        <div class="search-input">
-        <input class="boxx" type="text" name="medicine_notes" placeholder="Specialization"  />
-      </div>
-         
-        <!-- {% comment %} 
-        <input type="text" name="medicine_tags" placeholder="Tags" />
-         {% endcomment %} -->
-        
-         <button type="submit" class="button" name="add_medicine">
-          Search
-        </button>
-        
+
+        <div class="doctor">
+          <div class="profile">
+            <img class="img" src="kanye.png" alt="Profile Picture">
+          </div>
+          
+          <div class="details">
+            <p class="info" id="info1"> Dr. Kanye Singh</p>
+          <p class="info" id="info2"> Dentist (30min experience) </p>
+          <p class="info" id="info3"> Jagat Pura, Jaipur</p>
+          <p class="info" id="info4"> Swiftie Clinic</p>
+          <div class="lastbox"><p class="info" id="info5"> $10 per consultation <button class="book">Book my Appointment</button></p> </div> 
+       
+        </div> 
+          </div>
       
-      </form>
-    
+        </div>
+      
     </div>
      
-    <div class="item" id="calander-box"></div>
-      
      
   </div>
 
