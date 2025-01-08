@@ -16,15 +16,15 @@
             <li>
                 <strong>{{ medicine.name }}</strong>
             
-                <li>Possible Side Effects: 
-                    {{ medicine.side_effects }}</li>
                 <ul>
                     <li>Uses:</li>
                     <ul>
                         {% for use in medicine.uses.all %}
-                            <li>{{ use.name }}: {{ use.description }}</li>
+                            <li>{{ use.name }}-{{ use.description }}</li>
                         {% endfor %}
                     </ul>
+                    <li>Possible Side Effects: 
+                        {{ medicine.side_effects }}</li>
                 </ul>
             </li>
         {% endfor %}

@@ -1,0 +1,14 @@
+[
+    {
+        "model" : "meds.medicine",
+        "pk" : 1,
+        "fields" : {
+            "name" : "Paracetamol",
+            "side_effects" : "Nausea, Vomiting, Allergic reactions",
+            "uses" : [
+                "Antipyretic",
+                "Analgesic"
+            ]
+        }
+    }
+]
