@@ -38,6 +38,7 @@ def hospital_info(request, hospital_name):
     doctor_data = []
     for doctor in doctors:
         doctor_data.append({
+            'id': doctor.id,
             'name': f"Dr. {doctor.user.first_name} {doctor.user.last_name}",
             'timing': '9 AM - 6 PM'
         })
