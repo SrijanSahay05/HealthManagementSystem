@@ -11,7 +11,7 @@ class CustomUser(AbstractUser):
     first_name = models.CharField(max_length=30)
     last_name = models.CharField(max_length=30)
     email = models.EmailField(unique=True)
-    username =  models.CharField(max_length=30, unique=False, blank=True, null=True)
+    # username =  models.CharField(max_length=30, unique=False, blank=True, null=True)
     phone_number = models.CharField(max_length=12, blank=True, null=True)
     # gender = models.CharField(
     #     max_length=6, choices=GENDER_CHOICES, blank=True, null=True
@@ -49,7 +49,6 @@ class DoctorProfile(models.Model):
     specialization = models.CharField(max_length=50, blank=True, null=True)
     appointment_duration = models.IntegerField(help_text="Duration of each appointment in minutes", blank=True, null=True)
     appointment_fees = models.IntegerField(help_text="Fees for each appointment in INR", blank=True, null=True)
-    
     # hospitals = models.ManyToManyField(Hospital, related_name='doctors') #Think how to use this     
 
 

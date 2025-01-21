@@ -1,0 +1,26 @@
+{% extends "basetemplates/base.html" %}
+
+{% block content %}
+<div class="doctor-detail">
+    <div class="doctor-detail__info">
+        <h2>{{ doctor.user.first_name }}</h2>
+        <p>{{ doctor.specialization }}</p>
+        <p>₹{{ doctor.appointment_fees }} per consultation</p>
+        <p>{{ doctor.user.email }}</p>
+    </div>
+    <div class="doctor-detail__actions">
+        <form method="post" action="{% url 'doctor_detail' doctor.id %}">
+            {% csrf_token %}
+            <div class="form-group">
+                <label for="timeslot">Select Timeslot:</label>
+                <select id="timeslot" name="timeslot" class="form-control" required>
+                    {% for slot in timeslots %}
+                    <option value="{{ slot.id }}">{{ slot }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+            <button type="submit" class="btn btn-success">Confirm Booking</button>
+        </form>
+    </div>
+</div>
+{% endblock content %}

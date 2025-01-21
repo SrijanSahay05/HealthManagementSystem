@@ -3,5 +3,5 @@ from dashboard import views as dashboard_views
 
 urlpatterns = [
     path("", dashboard_views.index, name="index"),  
-    path("kritika/", dashboard_views.kritika, name="kritika"),  
+    path("my_account/", dashboard_views.Profile, name="my_account"),
 ]

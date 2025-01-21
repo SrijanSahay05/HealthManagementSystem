@@ -1,0 +1,25 @@
+{% extends "basetemplates/base.html" %}
+
+{% block content %}
+    <h1>{{ hospital.name }}</h1>
+    <p>Location: {{ hospital.vicinity }}</p>
+
+    <h2>Doctors</h2>
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <th>Timings</th>
+            <th>Action</th>
+        </tr>
+        {% for doctor in doctors %}
+        <tr>
+            <td>{{ doctor.name }}</td>
+            <td>{{ doctor.timing }}</td>
+            <td>
+                <button class="book" onclick="location.href='{% url 'doctor_detail' doctor.id %}'">Book my Appointment</button></p>
+                </a>
+            </td>
+        </tr>
+        {% endfor %}
+    </table>
+{% endblock content %}

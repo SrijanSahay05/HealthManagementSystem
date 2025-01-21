@@ -1,4 +1,5 @@
 {% load static %}
+{% comment %} {% load messages %} {% endcomment %}
 
 <!DOCTYPE html>
 <html lang="en">
@@ -12,21 +13,35 @@
 <body>
 
 <header>
-    <div class="logo"><img src="/media/homepagemedia/logo.png" alt="SUNNY LEMONS"></div>
+    <div class="logo">
+        <a href="{% url 'index' %}">
+            <img src="/media/homepagemedia/logo.png" alt="SUNNY LEMONS">
+        </a>
+    </div>
     <div class="navigation">
-      <a href="#">Locate</a>
-      <a href="#">Book</a>
-      <a href="#">Timetable</a>
-      <a href="#">Medicine</a>
-      <button class="btnsignup-popup">Signup</button>
+        <a href="#">Locate</a>
+        <a href="{% url 'doctor_search' %}">Book</a>
+        <a href="{% url 'timetable' %}">Timetable</a>
+        <a href="#">Medicine</a>
+        
+        {% if user.is_authenticated %}
+        <button class="btnsignup-popup">Profile</button>
+        {% else %}
+        <button class="btnsignup-popup">Signup</button>
+        {% endif %}
     </div>
 </header>
 
-    {% block content %}
-    
-    
-    
-    {% endblock content %}
+{% if messages %}
+    <ul class="messages">
+        {% for message in messages %}
+            <li{% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</li>
+        {% endfor %}
+    </ul>
+{% endif %}
+
+{% block content %}
+{% endblock content %}
 
 </body>
 </html>
