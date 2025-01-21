@@ -1,0 +1,88 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Account Settings</title>
+  <link rel="stylesheet" href="{% static 'css_files/Myaccount.css' %}">
+</head>
+
+<header>
+  <div class="logo"><img src="/media/homepagemedia/logo.png" alt="SUNNY LEMONS"></div>
+  <div class="navigation">
+    <a href="#">Locate</a>
+    <a href="#">Book</a>
+    <a href="#">Timetable</a>
+    <a href="#">Medicine</a>
+    <button class="btnsignup-popup">Signup</button>
+  </div>
+</header>
+
+
+<body>
+  
+  <div class="container">
+    <div class="sidebar">
+      <div class="profile">
+        <img class="img" src="/media/account_profiles/cat.jpeg" alt="Profile Picture">
+        <p>Hi {{user.first_name}}</p>
+      </div>
+      <div class="menu">
+        <a href="#" class="menu-item ">My Appointments</a>
+        <a href="#" class="menu-item active">Account Settings</a>
+      </div>
+    </div>
+    <div class="content">
+      <h2>Account Settings</h2>
+      <form class="settings-form" method="POST" action="{% url 'my_account' %}">
+        {% csrf_token %}
+        <div class="form-group">
+            <div class="name">
+                <input class="input" type="text" name="first_name" value="{{ user.first_name }}" placeholder="First Name" required />
+            </div>
+            <div class="name">
+                <input class="input" type="text" name="last_name" value="{{ user.last_name }}" placeholder="Last Name" required />
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="dob">
+                <input class="input" type="date" name="dob" value="{{ user.date_of_birth|date:'d-m-Y' }}" placeholder="DOB" required />
+            </div>
+            <div class="gender">
+                <input class="input" type="text" name="gender" value="{{ user.gender }}" placeholder="Gender" required />
+            </div>
+        </div>
+        <div class="form-group">
+            <label>BP:</label>
+            <label>
+          <input class="bp" type="radio" name="bp" value="True" {% if user.patient_profile.bp_patient %}checked{% endif %} /> Yes
+            </label>
+            <label>
+          <input class="bp" type="radio" name="bp" value="False" {% if not user.patient_profile.bp_patient %}checked{% endif %} /> No
+            </label>
+          
+            <label>Diabetic:</label>
+            <label>
+          <input class="diabetes" type="radio" name="diabetes" value="True" {% if user.patient_profile.diabetes_patient %}checked{% endif %} /> Yes
+            </label>
+            <label>
+          <input class="diabetes" type="radio" name="diabetes" value="False" {% if not user.patient_profile.diabetes_patient %}checked{% endif %} /> No
+            </label>
+        </div>
+        
+
+        <div class="form-group">
+            <div class="blood-grp">
+                <input class="input" type="text" name="blood_group" value="{{ user.patient_profile.blood_group }}" placeholder="Blood Group" required />
+            </div>
+        </div>
+        <div class="form-actions">
+            <button type="submit" class="btn update-btn">Update</button>
+            <button type="button" class="btn cancel-btn">Cancel</button>
+        </div>
+    </form>
+    </div>
+  </div>
+</body>
+</html>

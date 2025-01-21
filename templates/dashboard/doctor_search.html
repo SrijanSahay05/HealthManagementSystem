@@ -1,0 +1,59 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sunny Lemons</title>
+    <link rel="stylesheet" href="{% static 'css_files/booking.css' %}">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <a href="{% url 'index' %}">
+                <img src="/media/homepagemedia/logo.png" alt="SUNNY LEMONS">
+            </a>
+        </div>
+        <div class="navigation">
+            <a href="#">Locate</a>
+            <a href="{% url 'doctor_search' %}">Book</a>
+            <a href="{% url 'timetable' %}">Timetable</a>
+            <a href="#">Medicine</a>
+            <button class="btnsignup-popup">Signup</button>
+        </div>
+    </header>
+
+<div class="container">
+    <div class="h5">
+        <p class="para">Find the Right Doctor for You!</p>
+        <p class="h7">Accessible, Affordable, and Convenient Medical Care!</p>
+    </div>
+
+    <form method="get" action="{% url 'doctor_search' %}">
+        <input class="searchbox" id="sb1" type="text" name="q" placeholder="Search by name or specialization" value="{{ request.GET.q }}">
+        <button class="searchbox" id="sb2" type="submit">Search</button>
+    </form>
+
+    <p class="h6">Here’s a List of Trusted Doctors Matching Your Preferences</p> 
+     
+    <div class="item" id="calander-box">
+        {% for doctor in doctors %}
+        <div class="doctor">
+            <div class="details">
+                <p class="info" id="info1">Dr. {{doctor.user.first_name}}</p>
+                <p class="info" id="info2">{{doctor.specialization}}</p>
+                <p class="info" id="info3">Vaishali Nagar, Jaipur</p>
+                <p class="info" id="info4">Rizzler Clinic</p>
+                <div class="lastbox">
+                    <p class="info" id="info5">₹{{doctor.appointment_fees}} per consultation
+                        <button class="book" onclick="location.href='{% url 'doctor_detail' doctor.id %}'">Book my Appointment</button></p>
+                </div> 
+            </div> 
+        </div>
+        {% endfor %}
+    </div>
+</div>
+
+</body>
+</html>

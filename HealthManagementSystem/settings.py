@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     "dashboard",
     "patientdata",
     "appointmentbooking",
+    "management",
     #third-party APPS
     "allauth",
     "allauth.account",

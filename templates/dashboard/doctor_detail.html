@@ -1,0 +1,44 @@
+{% extends "basetemplates/base.html" %}
+
+{% block content %}
+<div class="doctor-detail" style="padding-left: 10px;">
+    <div class="doctor-detail__info">
+        <h2 class="hi" style="font-size: 2em;">{{ doctor.user.first_name }}</h2>
+        <p class="hi">{{ doctor.specialization }}</p>
+        <p class="hi">₹{{ doctor.appointment_fees }} per consultation</p>
+        <p class="hi">{{ doctor.user.email }}</p>
+    </div>
+    <div class="doctor-detail__actions">
+        <form method="post" action="{% url 'doctor_detail' doctor.id %}">
+            {% csrf_token %}
+            <div class="form-group">
+                <label for="timeslot" class="hi" style="border-radius: 7px;">Select Timeslot:</label>
+                <select id="timeslot" name="timeslot" class="form-control" required>
+                    {% for slot in timeslots %}
+                    <option value="{{ slot.id }}">{{ slot }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+            <button type="submit" class="btn btn-success" id="kbtn" style="background: transparent;
+            border: 2px solid rgb(21,158, 222);
+            outline: none;
+            
+            cursor: pointer;
+            font-size: 1.1em;
+            margin-top: 20px;
+            
+            margin-left: 40px;
+            transition: .5s;
+            padding: 10px 20px;
+            
+            font-weight: bold; 
+            color: white; 
+            border: none; 
+            border-radius: 12px; 
+            background: linear-gradient(to right, #4bc1f0, #1e58ff); 
+            cursor: pointer; 
+            transition: transform 1s, box-shadow 0.2s;">Confirm Booking</button>
+        </form>
+    </div>
+</div>
+{% endblock content %}

@@ -1,27 +1,33 @@
 from django.db import models
-from users.models import PatientProfile, DoctorProfile, Hospital
+from users.models import PatientProfile, DoctorProfile
 from patientdata.models import Days
-
-
-
-
-class DoctorHospitalSlots(models.Model):
+from dashboard.models import UpcomingDates
+# Create your models here.
+ 
+class doctorAvailability(models.Model):
     doctor = models.ForeignKey(DoctorProfile, on_delete=models.CASCADE)
-    hospital_name = models.ForeignKey(Hospital, on_delete=models.CASCADE)
-    visiting_days = models.ManyToManyField('Days', related_name='doctor_slots')
-    visiting_time = models.TimeField()
+    working_days = models.ManyToManyField(Days)
 
     def __str__(self):
-        return f"{self.doctor.user.get_full_name()} at {self.hospital_name.hospital_name} at {self.visiting_time}"
+        return f"slots available for {self.doctor} on {self.working_days}"
 
-class Appointments(models.Model):
+class slot(models.Model):
+    date = models.ForeignKey(UpcomingDates, on_delete=models.CASCADE)
+    time = models.TimeField()
 
+    def __str__(self):
+        return f"{self.time}-{self.date}"
+
+class appointment(models.Model):
     patient = models.ForeignKey(PatientProfile, on_delete=models.CASCADE)
     doctor = models.ForeignKey(DoctorProfile, on_delete=models.CASCADE)
-    hospital_name = models.ForeignKey(Hospital, on_delete=models.CASCADE)
-    appointment_date = models.DateField()
-    appintment_time = models.TimeField()
+    time_slot = models.ForeignKey(slot, on_delete=models.CASCADE, null=True, blank=True)
 
+    class Meta:
+        unique_together = ('doctor', 'time_slot')
+ 
     def __str__(self):
-        return f"Appointment for {self.patient.user.get_full_name()} with {self.doctor.user.get_full_name()} at {self.hospital_name.hospital_name}"
+        return f"{self.patient.user.username} with {self.doctor.user.username} on {self.time_slot   }"
+    
+
     
