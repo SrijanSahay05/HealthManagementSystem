@@ -1,7 +1,53 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nearby Hospitals</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .container h1 {
+            font-size: 2.5em;
+            color: #0078FF;
+        }
+        .container a {
+            display: inline-block;
+            margin-bottom: 20px;
+            padding: 10px 20px;
+            font-size: 1.1em;
+            font-weight: bold;
+            color: white;
+            background: linear-gradient(to right, #4bc1f0, #1e58ff);
+            border: none;
+            border-radius: 12px;
+            text-decoration: none;
+            cursor: pointer;
+            transition: transform 1s, box-shadow 0.2s;
+        }
+        .container a:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        #map {
+            height: 80vh;
+            width: 100%;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="{% url 'loc:hospital_list' %}">Go to Nearby Hospital List</a>
+        <h1>Nearby Hospitals</h1>
+        <div id="map"></div>  <!-- Map display -->
+    </div>
+
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCinVXEXrCgvbYCTsRPD7nL1zLHISPqsvQ&callback=initMap" async defer></script>
     <script>
         function initMap() {
@@ -68,11 +114,5 @@
             });
         }
     </script>
-</head>
-<body>
-    <a href="{% url 'loc:hospital_list' %}">Go to Nearby Hospital List</a>
-    <h1>Nearby Hospitals</h1>
-    
-    <div id="map" style="height: 500px; width: 100%;"></div>  <!-- Map display -->
 </body>
 </html>
