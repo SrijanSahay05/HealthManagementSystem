@@ -1,20 +1,9 @@
-from django.shortcuts import render
-import requests
 import json
 from .utils import get_hospitals
 from urllib.parse import unquote
 from django.http import Http404
-from django.urls import reverse
-
-
-fake_doctors = [
-    {'name': 'Dr. John Doe', 'timing': '9 AM - 12 PM'},
-    {'name': 'Dr. Jane Smith', 'timing': '1 PM - 4 PM'},
-    {'name': 'Dr. Alice Brown', 'timing': '10 AM - 2 PM'},
-    {'name': 'Dr. Bob White', 'timing': '3 PM - 6 PM'}
-]
-
-
+from django.shortcuts import render
+from users.models import DoctorProfile
 
 def map(request):
     hospitals = get_hospitals()
@@ -42,11 +31,20 @@ def hospital_info(request, hospital_name):
     if not hospital:
         raise Http404("Hospital not found")
 
-    # Use the same fake doctor data for all hospitals
-    doctors = fake_doctors
+    # Query actual doctors from the DoctorProfile model
+    doctors = DoctorProfile.objects.all()
+
+    # Add timing information to each doctor
+    doctor_data = []
+    for doctor in doctors:
+        doctor_data.append({
+            'id': doctor.id,
+            'name': f"Dr. {doctor.user.first_name} {doctor.user.last_name}",
+            'timing': '9 AM - 6 PM'
+        })
 
     context = {
         'hospital': hospital,
-        'doctors': doctors
+        'doctors': doctor_data
     }
     return render(request, 'loc/hospital_info.html', context)

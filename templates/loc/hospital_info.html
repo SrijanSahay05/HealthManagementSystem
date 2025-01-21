@@ -1,0 +1,24 @@
+{% extends "basetemplates/base.html" %}
+
+{% block content %}
+    <h1 style="font-size: 2.5em; color: #0078FF; text-align: center; margin-top: 20px;">{{ hospital.name }}</h1>
+    <p style="text-align: center; color: #555;">Location: {{ hospital.vicinity }}</p>
+
+    <h2 style="font-size: 2em; color: #0078FF; text-align: center; margin-top: 20px;">Doctors</h2>
+    <table style="width: 80%; margin: 20px auto; border-collapse: collapse; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); text-align: center;">
+        <tr style="background: #f9f9f9;">
+            <th style="padding: 10px; border: 1px solid #ddd;">Name</th>
+            <th style="padding: 10px; border: 1px solid #ddd;">Timings</th>
+            <th style="padding: 10px; border: 1px solid #ddd;">Action</th>
+        </tr>
+        {% for doctor in doctors %}
+        <tr>
+            <td style="padding: 10px; border: 1px solid #ddd;">{{ doctor.name }}</td>
+            <td style="padding: 10px; border: 1px solid #ddd;">{{ doctor.timing }}</td>
+            <td style="padding: 10px; border: 1px solid #ddd;">
+                <button class="book" style="padding: 10px 20px; font-size: 1.1em; font-weight: bold; color: white; background: linear-gradient(to right, #4bc1f0, #1e58ff); border: none; border-radius: 12px; cursor: pointer; transition: transform 1s, box-shadow 0.2s;" onclick="location.href='{% url 'doctor_detail' doctor.id %}'">Book my Appointment</button>
+            </td>
+        </tr>
+        {% endfor %}
+    </table>
+{% endblock content %}

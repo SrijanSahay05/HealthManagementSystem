@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     "patientdata",
     "appointmentbooking",
     "management",
+    "hospitallocator",
     #third-party APPS
     "allauth",
     "allauth.account",
@@ -169,3 +170,4 @@ ACCOUNT_SESSION_REMEMBER = True
 ACCOUNT_AUTHENTICATION_METHOD = "email"
 ACCOUNT_UNIQUE_EMAIL = True
 
+GOOGLE_MAPS_API_KEY = 'AIzaSyCinVXEXrCgvbYCTsRPD7nL1zLHISPqsvQ'
